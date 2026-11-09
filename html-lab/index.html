@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lab</title>
+    <style>
+      h1 {
+        font-family: cursive;
+        color: aliceblue;
+        background-color: darkslategray;
+      }
+      h2 {
+        font-family: cursive;
+        color: aliceblue;
+        background-color: darkslategray;
+      }
+    nav li {
+        padding-bottom: 1em;
+      }
+    nav li a {
+        color: aliceblue;
+        margin-left: 1em;
+        border-left: 3px solid aliceblue;
+        background-color: darkslategray;
+    }
+    body {
+        background-color: cadetblue;
+    }
+    div.gallery-item {
+        border: 2px inset darkslategray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px
+    }
+    figcaption{
+        text-align: center;
+        color: aliceblue;
+    }
+    figcaption a {
+        color: aliceblue;
+        background-color: darkslategray;
+    }
+    div.section {
+        border: 5px double darkslategray
+    }
+    .main-grid {
+    display: grid;
+    grid-template-columns: 25% auto;
+    }
+
+    .section-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>
+            Hannah's Gallery of Animals
+        </h1>
+    </header>
+    <div class = "main-grid">
+        <nav>
+            <li>
+                <a href="#paintings-and-prints">Paintings and Prints</a>
+            </li>
+            <li>
+                <a href="#sculptures-and-mosaics">Sculptures and Mosaics</a>
+            </li>
+            <li>
+                <a href="#original">Original Work</a>
+            </li>
+        </nav>
+
+        <main>
+            <div class = "section">
+                <h2 id = "paintings-and-prints" >Paintings and Prints</h2>
+                <div class = section-grid>
+                    <div class= "gallery-item">  
+                        <figure>
+                            <img src="images/boy-on-ram.jpg" alt = Boy on a Ram width="300"/>
+                            <figcaption><a href="https://www.artic.edu/artworks/111559/boy-on-a-ram"> 
+                                Boy on a Ram </a> </figcaption>
+                            <figcaption>                    
+                                Francisco Jose de Goya y Lucientes, Spain, 1786-1787 
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class= "gallery-item">  
+                        <figure>
+                        <img src="images/monkey.jpg" 
+                        alt = A Monumental Portrait of a Monkey width="300"/>                    
+                            <figcaption><a href="https://www.artic.edu/artworks/210511/a-monumental-portrait-of-a-monkey"> 
+                                A Monumental Portrait of a Monkey
+                            </a> </figcaption>
+                            <figcaption> India, 1700-1715 </figcaption>
+                        </figure>
+                    </div>
+                    <div class= "gallery-item">  
+                        <figure?>
+                            <img src="images/cows.jpg" 
+                            alt = Two Cows and a Young Bull beside a Fence in a Meadow width="300"/>
+                            <figcaption><a href="https://www.artic.edu/artworks/146953/two-cows-and-a-young-bull-beside-a-fence-in-a-meadow"> 
+                                Two Cows and a Young Bull beside a Fence in a Meadow
+                            </a> </figcaption>
+                            <figcaption> Paulus Potter, Netherlands, 1647 </figcaption>
+                        </figure>
+                    </div>
+                    <div class= "gallery-item">  
+                        <figure>
+                            <img src="images/meekness.jpg" 
+                            alt = Meekness width="300"/>
+                            <figcaption><a href="https://www.artic.edu/artworks/47159/meekness"> 
+                                Meekness
+                            </a> </figcaption>
+                            <figcaption> Eustache le Sueur, France, 1650 </figcaption>
+                        </figure>
+                    </div>
+                    <div class= "gallery-item">  
+                        <figure>
+                            <img src="images/cats.jpg" 
+                            alt = À la Bodiniére width="300"/>
+                            <figcaption><a href="https://www.artic.edu/artworks/16858/a-la-bodiniere"> 
+                                À la Bodiniére
+                            </a> </figcaption>
+                            <figcaption> Théophile-Alexandre Steinlen, France, 1894 </figcaption>
+                        </figure>
+                    </div>
+                    <div class= "gallery-item">  
+                        <figure>
+                            <img src="images/parrot.jpg" 
+                            alt = A Young Lady with a Parrot width="300"/>
+                            <figcaption><a href="https://www.artic.edu/artworks/103887/a-young-lady-with-a-parrot"> 
+                                A Young Lady with a Parrot
+                            </a> </figcaption>
+                            <figcaption> Rosalba Carriera, Italy, 1725-1735 </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class = "section">
+                <h2 id = "sculptures-and-mosaics">Sculptures and Mosaics</h2>
+                <div class = section-grid>
+                    <div class= "gallery-item">  
+                        <figure>
+                            <img src="images/dog.jpg" 
+                            alt = Figure of a Dog width="300"/>
+                            <figcaption><a href="https://www.artic.edu/artworks/136952/figure-of-a-dog"> 
+                                Figure of a Dog
+                            </a> </figcaption>
+                            <figcaption> Colima, Mexico, 1-200 CE </figcaption>
+                        </figure>
+                    </div>
+                    <div class= "gallery-item">  
+                        <figure>
+                            <img src="images/mom-monkey.jpg" 
+                            alt = Simian Mother and Child width="300"/>
+                            <figcaption><a href="https://www.artic.edu/artworks/130669/simian-mother-and-child"> 
+                                Simian Mother and Child
+                            </a> </figcaption>
+                            <figcaption> Indonesia, 13th Century </figcaption>
+                        </figure>
+                    </div>
+                    <div class= "gallery-item"> 
+                        <figure>
+                            <img src="images/giraffe.jpg" 
+                            alt = Mosaic Fragment with a Man Leading a Giraffe width="300"/>
+                            <figcaption><a href="https://www.artic.edu/artworks/126436/mosaic-fragment-with-a-man-leading-a-giraffe"> 
+                                Mosaic Fragment with a Man Leading a Giraffe
+                            </a> </figcaption>
+                            <figcaption> Byzantine, 5th Century </figcaption>
+                        </figure> 
+                    </div>
+                </div>
+            </div>
+            <div class = "section">
+                <h2 id = "original">Original Work</h2>
+                <div class = section-grid>
+                     <div class= "gallery-item">
+                        <figure>
+                            <svg 
+                                viewBox="0 0 300 300" 
+                                xmlns="http://www.w3.org/2000/svg"
+                                width=300 height=300>
+                                <circle cx=150 cy=150 r=100 fill="rgb(97 52 19)" /> 
+                                <circle cx=75 cy=75 r=50 fill="rgb(97 52 19)" />
+                                <circle cx=225 cy=75 r=50 fill="rgb(97 52 19)" />
+                                <circle cx=115 cy=120 r=15 fill="rgb(0 0 0)" />
+                                <circle cx=185 cy=120 r=15 fill="rgb(0 0 0)" />
+                                <ellipse cx="150" cy="150" rx="20" ry="10" />
+                                <path d="M 185 185 C 190 215, 130 215, 125 185" stroke="black" fill="transparent"/>    
+                            </svg>
+                        </figure>
+                     </div> 
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+</body>
+</html>

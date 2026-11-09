@@ -1,0 +1,9 @@
+https://www.artic.edu/artworks/111559/boy-on-a-ram 
+https://www.artic.edu/artworks/210511/a-monumental-portrait-of-a-monkey 
+https://www.artic.edu/artworks/146953/two-cows-and-a-young-bull-beside-a-fence-in-a-meadow
+https://www.artic.edu/artworks/126436/mosaic-fragment-with-a-man-leading-a-giraffe
+https://www.artic.edu/artworks/47159/meekness
+https://www.artic.edu/artworks/130669/simian-mother-and-child
+https://www.artic.edu/artworks/136952/figure-of-a-dog
+https://www.artic.edu/artworks/16858/a-la-bodiniere 
+https://www.artic.edu/artworks/103887/a-young-lady-with-a-parrot
