@@ -41,14 +41,6 @@
       <script type="module">
         const data= await d3.json("net_migration.json");
 
-        /*
-        Step 3: Re-create the chart:
-          - Create an SVG element inside div#part2
-          - Use a data join against the data loaded in step 2 to create the chart elements.
-          - Add axes & labels as needed.
-
-          Tip: https://d3-graph-gallery.com/graph/custom_legend.html might be helpful for considering how to build a legend.
-        */
         const color = d3.scaleDiverging().domain([-1, 0, 1])
             .range(["red", "white", "green"]);
         const path = d3.geoPath();
@@ -67,8 +59,8 @@
         const svg = d3.select("#part2")
             .append("svg")
             .attr("width", 975)
-            .attr("height", 610)
-            .attr("viewBox", [0, 0, 975, 610])
+            .attr("height", 700)
+            .attr("viewBox", [0, 0, 975, 700])
             .attr("style", "max-width: 100%; height: auto;");
 
         svg.append("g")
@@ -86,6 +78,14 @@
             .attr("stroke", "white")
             .attr("stroke-linejoin", "round")
             .attr("d", path);
+        
+        svg.append("text")
+            .attr("x", 350)
+            .attr("y", 20)
+            .style("font-size", "18px")
+            .attr("text-anchor", "middle") 
+            .style("font-weight", "bold")
+            .text("Percent change in population of people ages 16-26");
         
         function drawLegend(svg, color, {
              x = 580, y = 25, width = 260, height = 10, title = "% change", ticks = 5
@@ -123,7 +123,7 @@
                 .text(title);
             }
         
-        drawLegend(svg, color, {title: "Net migration, % change"});
+        drawLegend(svg, color, {title: "% change"});
         
 
 
